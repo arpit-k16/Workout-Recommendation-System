@@ -1,0 +1,382 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://static.vecteezy.com/system/resources/previews/048/905/207/non_2x/spacious-gym-with-natural-light-and-state-of-the-art-equipment-photo.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+
+/* Welcome Page Styles */
+
+
+
+
+
+
+
+
+
+
+
+
+
+.welcome-page {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+}
+
+.welcome-page h1 {
+  color: #333;
+  margin-bottom: 1.5rem;
+  font-size: 2.5rem;
+}
+
+.welcome-page p {
+  color: #555;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.welcome-page button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.welcome-page button:hover {
+  background-color: #0056b3;
+}
+
+/* Workout Recommendation Page Styles */
+.App {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+}
+
+.WorkoutPlan {
+  margin-top: 2rem;
+  text-align: left;
+}
+
+.WorkoutPlan h2 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.WorkoutPlan ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.WorkoutPlan li {
+  background-color: #f9f9f9;
+  margin: 0.5rem 0;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #555;
+}
+
+/* styles.css */
+
+/* General Button Styles */
+button {
+  padding: 1rem 2rem; /* Bigger padding for a larger button */
+  font-size: 1.2rem; /* Larger font size */
+  font-weight: bold; /* Bold text */
+  color: #fff; /* White text */
+  background-color: #007bff; /* Blue background */
+  border: none; /* Remove default border */
+  border-radius: 8px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+}
+
+/* Hover Effect */
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  transform: scale(1.05); /* Slightly enlarge the button */
+}
+
+/* Active Effect */
+button:active {
+  transform: scale(0.95); /* Slightly shrink the button when clicked */
+}
+
+
+/* styles.css */
+
+/* Form Label Styles */
+label {
+  font-size: 1.2rem; /* Larger font size */
+  font-weight: bold; /* Bold text */
+  color: #333; /* Darker text color */
+  margin-bottom: 1rem;
+}
+
+/* Select Dropdown Styles */
+select {
+  padding: 0.75rem; /* Bigger padding */
+  font-size: 1.1rem; /* Larger font size */
+  font-weight: bold; /* Bold text */
+  border: 2px solid #007bff; /* Blue border */
+  border-radius: 8px; /* Rounded corners */
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 1.5rem; /* More spacing */
+  background-color: #f9f9f9; /* Light background */
+  color: #333; /* Dark text color */
+}
+
+/* Select Dropdown Hover Effect */
+select:hover {
+  border-color: #0056b3; /* Darker blue border on hover */
+}
+
+/* Select Dropdown Focus Effect */
+select:focus {
+  outline: none; /* Remove default outline */
+  border-color: #007bff; /* Blue border on focus */
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.5); /* Glow effect on focus */
+}
+
+
+/* styles.css */
+
+/* Heading Styles */
+h1 {
+  color: #333; /* Dark text color */
+  font-size: 2.5rem; /* Larger font size */
+  font-weight: bold; /* Bold text */
+  margin-bottom: 1.5rem;
+  text-align: center;
+  text-transform: uppercase; /* Uppercase text */
+  letter-spacing: 2px; /* Spacing between letters */
+}
+
+
+
+
+
+
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333; /* Dark background */
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* Ensure navbar stays on top */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.navbar-logo a {
+  color: #fff; /* White text */
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 2rem; /* Space between links */
+}
+
+.navbar-links a {
+  color: #fff; /* White text */
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+.navbar-links a:hover {
+  color: #007bff; /* Blue on hover */
+}
+
+.navbar-profile-logout{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navbar-profile img {
+  width: 40px; /* Adjust size */
+  height: 40px;
+  border-radius: 50%; /* Circular profile icon */
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.navbar-profile img:hover {
+  transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+
+
+/* Adjust content padding */
+.App, .welcome-page {
+  padding-top: 80px; /* Adjust based on navbar height */
+}
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333; /* Dark background */
+  padding: 1rem 2rem;
+  position: fixed; /* Change to fixed */
+  top: 0; /* Stick to the top */
+  left: 0; /* Align to the left */
+  right: 0; /* Align to the right */
+  z-index: 1000; /* Ensure navbar stays on top */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+
+
+
+
+
+
+/* // profile icon */
+
+/* Navbar Profile Icon Styles */
+.profile-icon {
+  width: 40px; /* Adjust size */
+  height: 40px;
+  border-radius: 50%; /* Circular profile icon */
+  background-image: url('./src/user.png'); /* Path to your profile image */
+  background-size: cover; /* Ensure the image covers the entire div */
+  background-position: center; /* Center the image */
+  cursor: pointer;
+  transition: transform 0.3s ease; /* Smooth hover effect */
+  background-color: white;
+}
+
+.profile-icon:hover {
+  transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+.navbar-profile-logout button {
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-profile-logout button:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+
+
+
+
+/* this iis the stule for the login logout page  */
+
+/* Auth Container Styles */
+.auth-container {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.auth-container h2 {
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.auth-container .form-group {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.auth-container label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #555;
+}
+
+.auth-container input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.auth-container button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.auth-container button:hover {
+  background-color: #0056b3;
+}
+
+.auth-container .error {
+  color: red;
+  margin-bottom: 1rem;
+}
+
+.auth-container p {
+  margin-top: 1rem;
+  color: #555;
+}
+
+.auth-container a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.auth-container a:hover {
+  text-decoration: underline;
+}
